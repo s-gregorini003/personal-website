@@ -6,15 +6,13 @@ draft: true
 ---
 ## The Idea
 
-
-
 ## First Design and Previous Work
+### Arduinoboy
+### Other Mods
 
+## Hardware
 
-
-## Something Went Wrong
-
-
+## Software
 
 ## New Design, Work in Progress
 

@@ -1,7 +1,7 @@
 baseurl = "https://s-gregorini003.github.io/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Silvio Gregorini"
+title = "Silvio Gregorini-WIP"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -15,7 +15,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "The website is still under construction, please come back in a few days!"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -66,7 +66,7 @@ pygmentsCodefencesGuessSyntax = true
 #  itchio = "username"
 #  vk = "username"
 #  paypal = "username"
-  telegram = "username"
+  telegram = "cambionickquandovoglio"
 #  500px = "username"
 #  codepen = "username"
 #  mastodon = "url"
