@@ -46,27 +46,27 @@ pygmentsCodefencesGuessSyntax = true
 
 [Author]
   name = "Silvio Gregorini"
-  website = "yourwebsite.com"
-  email = "youremail@domain.com"
-  facebook = "username"
+  website = "s-gregorini003.github.io"
+  email = "silvio.gregorini@gmail.com"
   github = "s-gregorini003"
+  telegram = "cambionickquandovoglio"
+  linkedin = "silvio-gregorini-097364174"
+  spotify = "11133672971"
+#  facebook = "username"
 #  gitlab = "username"
 #  bitbucket = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
+#  twitter = "username"
+#  reddit = "username"
 #  xing = "username"
 #  stackoverflow = "users/XXXXXXX/username"
 #  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
+#  instagram = "username"
+#  youtube = "user/username" # or channel/channelname
 #  soundcloud = "username"
-  spotify = "username"
 #  bandcamp = "username"
 #  itchio = "username"
 #  vk = "username"
 #  paypal = "username"
-  telegram = "cambionickquandovoglio"
 #  500px = "username"
 #  codepen = "username"
 #  mastodon = "url"
@@ -85,29 +85,29 @@ pygmentsCodefencesGuessSyntax = true
     weight = 3
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
+    identifier = "projects"
+    name = "Projects"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
+    parent = "projects"
+    name = "Volca Boy"
+    url = "post/volca-boy-0"
     weight = 1
 
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
+#[[menu.main]]
+#    parent = "projects"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
 
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
+#[[menu.main]]
+#    parent = "projects"
+#    name = "Code Sample"
+#    url = "post/2016-03-08-code-sample"
+#    weight = 3
 
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+#[[menu.main]]
+#    name = "Tags"
+#    url = "tags"
+#    weight = 3
