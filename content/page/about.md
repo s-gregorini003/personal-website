@@ -10,7 +10,7 @@ I am a student at Leeds Beckett University, expecting to obtain a degree of MSc 
 
 ## Future Aims
 
-I am looking for a PhD program starting in autumn 2020 in deep learning for augmented/virtual reality, robotics or 3D printing applications. But I'm also considering to undertake internships, either before or whilst researching.
+I am looking for a PhD program starting in autumn 2020 in deep learning for augmented/virtual reality, machine audition, robotics or 3D printing applications. But I'm also considering to undertake internships, either before or whilst researching.
 If you would like to arrange a meeting, [please contact me](mailto:silvio.gregorini@gmail.com).
 
 > #### In short, I try to:
