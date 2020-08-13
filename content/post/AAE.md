@@ -1,11 +1,9 @@
 ---
-title: "3D Printed Destructive Interference Acoustic Absorbers"
+title: "### 3D Printed Destructive Interference Acoustic Absorbers"
 subtitle: "Design, Production and Evaluation"
 date: 2020-06-10T08:45:42+01:00
 draft: false 
 ---
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 ## Abstract
 
@@ -18,18 +16,14 @@ The results show that significant sound absorption can be achieved, although som
 
 ## Introduction
 
-The aim of the project is to design and manufacture Passive Destructive Interference (PDI) absorbers using Additive Manufacturing (AM) techniques and then to evaluate their performance through a low cost, self-built impedance tube. The main outcome of the measurement process is a set of diagrams of the normal absorption factor α of the specimens as a function of frequency in a mid-low spectrum range. As suggested by Godbold (2007) and Setaki (2015) the sound absorption curves will be then analyzed using two values:
-- The frequency of peak sound absorption
-- The half-power bandwidth of the peak
-
-These values will be used to determine the effects of the tested geometries and to verify if the experimental results agree with the values expected from the samples in the design phase.
-To achieve this, measurement equipment and samples must be designed and a measurement of α has to be done for each sample according to the methodology explained in Section 4.3.
+The aim of the project is to design and manufacture Passive Destructive Interference (PDI) absorbers using Additive Manufacturing (AM) techniques and then to evaluate their performance through a low cost, self-built impedance tube. The main outcome of the measurement process is a set of diagrams of the normal absorption factor of the specimens as a function of frequency in a mid-low spectrum range. The sound absorption curves will be then analyzed to determine the effects of the tested geometries and to verify if the experimental results agree with the values expected from the samples in the design phase.
 
 
 ## Theory and Methodology
 
-According to the theory (Setaki, 2015, p. 5) the samples are designed to absorb specific frequencies through passive destructive interference. These frequencies depend mainly on the specimen's geometry, and can be calculated in advance through the following equation 
-<div>$$f_n = {(2n-1)*c\over 2L}$$</div>
+The investigated devices are designed to absorb specific frequencies through passive destructive interference. These frequencies depend mainly on the specimen's geometry, and can be calculated in advance through the following equation 
+
+{{< figure src="/img/aae/equation.jpg" caption="" >}}
 
 Where *L* (m) is the length of the cavity and *c* (m/s) is the speed of sound in the air.
 
@@ -44,17 +38,25 @@ Where *L* (m) is the length of the cavity and *c* (m/s) is the speed of sound in
 
 ## Findings 
 
+For each specimenh, measurements are taken in the frequency interval 100-3200 Hz. The normal sound absorption curves are analysed through the evaluation of two values: 
+
+- The frequency of peak sound absorption
+- The frequency range between the values on both sides of the peak where half the peak sound absorption occurs.
+
+Using those values, the effects of the tested geometries can be determined and compared to the expected theoretical values. The results show that significant sound absorption has been achieved. The sound absorption coefficient reaches values of 0.87 at peak frequencies in the range considered. However, it must be noted that the absorption bandwidth is relatively narrow and that many relatively lower peaks can be attributed to the unprofessional measuring equipment.
+
+For example, the following figure shows that the predicted frequency of the peaks for sample A is respected mainly in the lower range, while they are slightly shifted in the mid-upper range considered, probably due to production defects in the specimen.
 
 {{< figure src="/img/aae/sample-A-results.png" caption="Measured absorption coefficient for sample A compared to predicted peak frequencies." >}}
+
+---
+
+Thanks for reading! If you want to have a look at the full article, you can find it [here](https://www.researchgate.net/publication/343628647_Measurement_of_the_Absorption_Coefficient_for_Destructive_Interference_Absorbers_Produced_by_Additive_Manufacturing).
 
 ## References
 
 - [Sound absorption and additive manufacturing](https://www.researchgate.net/publication/281005456_Sound_absorption_and_additive_manufacturing)
 
-
+- [Implications of solid freeform fabrication on acoustic absorbers](https://www.emerald.com/insight/content/doi/10.1108/13552540710824805/full/html)
 
 {{< figure src="/img/aae/PATH" caption="CAPTION" >}}
-<div>$$TeX Code$$</div>
-
-\( \alpha \)
-test \( \alpha \)
