@@ -1,6 +1,6 @@
 ---
-title: "### 3D Printed Destructive Interference Acoustic Absorbers"
-subtitle: "Design, Production and Evaluation"
+title: "3D Printed Acoustic Absorbers"
+subtitle: "Design, Production and Evaluation of PDI Absorbers"
 date: 2020-06-10T08:45:42+01:00
 draft: false 
 ---
@@ -9,15 +9,17 @@ draft: false
 
 This blog post is to summarise a research project conducted at the beginning of 2019 as part of the Advanced Audio Engineering module (MSc Audio Engineering, Leeds Beckett University). The project discusses the potentials of achieving high performance in terms of sound absorption through additive manufacturing techniques.
 
-The absorbers are designed to exploit the principle of passive destructive interference (PDI) and manufactured using a commercially available fused deposition modeling (FDM) 3D printer. The specimen are cylindrical and produced with cavities of different lengths. The absorption coefficient is evaluated using an impedance tube and following the specifications of the standard BS EN ISO 10534-2:2001.
+The absorbers are designed to exploit the principle of passive destructive interference (PDI) and manufactured using a commercially available fused deposition modeling (FDM) 3D printer. The specimen are cylindrical and produced with cavities of different lengths. The absorption coefficient is evaluated using an impedance tube and following the specifications of the standard [BS EN ISO 10534-2:2001](https://shop.bsigroup.com/ProductDetail?pid=000000000030069842).
 
 The results show that significant sound absorption can be achieved, although some absorption peaks do not match the expected frequencies. This may be caused by turbulence and resonance phenomena, especially in samples with greater diameter of the cavity. Futher investigation is required, but the potential of these technologies in terms of efficiency over manufacturing cost and absorber size is undoubted.
 
+---
 
 ## Introduction
 
 The aim of the project is to design and manufacture Passive Destructive Interference (PDI) absorbers using Additive Manufacturing (AM) techniques and then to evaluate their performance through a low cost, self-built impedance tube. The main outcome of the measurement process is a set of diagrams of the normal absorption factor of the specimens as a function of frequency in a mid-low spectrum range. The sound absorption curves will be then analyzed to determine the effects of the tested geometries and to verify if the experimental results agree with the values expected from the samples in the design phase.
 
+</br>
 
 ## Theory and Methodology
 
@@ -25,16 +27,20 @@ The investigated devices are designed to absorb specific frequencies through pas
 
 {{< figure src="/img/aae/equation.jpg" caption="" >}}
 
-Where *L* (m) is the length of the cavity and *c* (m/s) is the speed of sound in the air.
+where *L* (m) is the length of the cavity and *c* (m/s) is the speed of sound in the air.
 
 {{< figure src="/img/aae/sample-A-specs.png" caption="Specification and design of a specimen." >}}
 
-
+The measurement of the absorption coefficient was conducted according to the *two-micophone technique* detailed in [BS EN ISO 10534-2:2001](https://shop.bsigroup.com/ProductDetail?pid=000000000030069842). The biggest issue faced in this project was to find an impedance tube to conduct the evaluation. Since my university had part of the equipment (microphones, soundcard, speakers...), in the end I decided to build a low-cost impedance tube. I built it out of pvc pipes and hydraulic seals, and calibrated at the best of my possibilities. The software used to measure the cross-transfer function and calculate the coefficient is [Holmarc Wave Analyzer 4C ](https://www.holmarc.com/softwares/impedance_tube_software.rar).
 
 {{< figure src="/img/aae/TestEquipmentDiagram.png" caption="Measurement test equipment layout." >}}
 
 
 {{< figure src="/img/aae/specimen.jpg" caption="Two specimen used for measurement." >}}
+
+{{< gallery caption-effect="fade" >}} {{< figure thumb="-thumb" link="/img/aae/TestEquipmentDiagram.png" caption="Measurement test equipment layout." >}} {{< figure thumb="-thumb" link="/img/aae/specimen.jpg" caption="Two specimen used for measurement." >}} {{< /gallery >}}
+
+</br>
 
 ## Findings 
 
@@ -58,5 +64,3 @@ Thanks for reading! If you want to have a look at the full article, you can find
 - [Sound absorption and additive manufacturing](https://www.researchgate.net/publication/281005456_Sound_absorption_and_additive_manufacturing)
 
 - [Implications of solid freeform fabrication on acoustic absorbers](https://www.emerald.com/insight/content/doi/10.1108/13552540710824805/full/html)
-
-{{< figure src="/img/aae/PATH" caption="CAPTION" >}}
