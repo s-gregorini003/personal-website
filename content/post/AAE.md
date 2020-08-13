@@ -19,7 +19,6 @@ The results show that significant sound absorption can be achieved, although som
 
 The aim of the project is to design and manufacture Passive Destructive Interference (PDI) absorbers using Additive Manufacturing (AM) techniques and then to evaluate their performance through a low cost, self-built impedance tube. The main outcome of the measurement process is a set of diagrams of the normal absorption factor of the specimens as a function of frequency in a mid-low spectrum range. The sound absorption curves will be then analyzed to determine the effects of the tested geometries and to verify if the experimental results agree with the values expected from the samples in the design phase.
 
-</br>
 
 ## Theory and Methodology
 
@@ -31,16 +30,14 @@ where *L* (m) is the length of the cavity and *c* (m/s) is the speed of sound in
 
 {{< figure src="/img/aae/sample-A-specs.png" caption="Specification and design of a specimen." >}}
 
-The measurement of the absorption coefficient was conducted according to the *two-micophone technique* detailed in [BS EN ISO 10534-2:2001](https://shop.bsigroup.com/ProductDetail?pid=000000000030069842). The biggest issue faced in this project was to find an impedance tube to conduct the evaluation. Since my university had part of the equipment (microphones, soundcard, speakers...), in the end I decided to build a low-cost impedance tube. I built it out of pvc pipes and hydraulic seals, and calibrated at the best of my possibilities. The software used to measure the cross-transfer function and calculate the coefficient is [Holmarc Wave Analyzer 4C ](https://www.holmarc.com/softwares/impedance_tube_software.rar).
+I designed the samples in SolidWorks and manufactured with an AthorBot Brother Desktop 3D Printer. To test different materials, both geometries were printed in ABS and PETG.
+
+{{< figure src="/img/aae/specimen1.jpg" caption="Two specimen used for measurement." >}}
+
+The measurement of the absorption coefficient was conducted according to the *two-micophone technique* detailed in [BS EN ISO 10534-2:2001](https://shop.bsigroup.com/ProductDetail?pid=000000000030069842). The biggest issue faced in this project was to find an impedance tube to conduct the evaluation. Since my university had part of the equipment (microphones, soundcard, speakers...), in the end I decided to build a low-cost impedance tube. I built it out of pvc pipes, hydraulic seals, and I added an Arduino Uno with an OLED display and temperature/humidity sensors to keep track of the environmental conditions. To calibrate the tube and conduct the measuring process - which consisted in measuring the cross-transfer function and then calculating the absorption coefficient - I used the software [Holmarc Wave Analyzer 4C ](https://www.holmarc.com/softwares/impedance_tube_software.rar).
 
 {{< figure src="/img/aae/TestEquipmentDiagram.png" caption="Measurement test equipment layout." >}}
 
-
-{{< figure src="/img/aae/specimen.jpg" caption="Two specimen used for measurement." >}}
-
-{{< gallery caption-effect="fade" >}} {{< figure thumb="-thumb" link="/img/aae/TestEquipmentDiagram.png" caption="Measurement test equipment layout." >}} {{< figure thumb="-thumb" link="/img/aae/specimen.jpg" caption="Two specimen used for measurement." >}} {{< /gallery >}}
-
-</br>
 
 ## Findings 
 
