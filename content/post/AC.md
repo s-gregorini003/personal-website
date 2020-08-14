@@ -42,7 +42,7 @@ After the first analysis and measurement session, the printer showed the followi
 - Motor dampers - The printer under test uses ve Nema17 stepper motors, which is one of the most common and cheap solutions in the field. Despite their cost, popularity, and performance, these motors are particularly loud, especially when coupled with low resolution controllers
 like the DRV8825 IC. To address this potential issue, I decided to install mechanical dampers between the motor and the 3D printer frame;
 
-{{< figure src="/img/ac/motors.png caption="Installation of the motor dampers." >}}
+{{< figure src="/img/ac/motors.png" caption="Installation of the motor dampers." >}}
 
 - Bearings - Another potential source of noise and vibration was found in the linear bearings of the y-axis. These three bearings allow the heated bed to move without friction along the cylindrical rails. In the original design of the printer, they were spherical bearings, which require lower tolerances to work, but are prone to lose performance over time. They have been substituted by self-lubricating polymer bearing, which have no moving parts, and therefore are quieter, more precise and durable.
 
