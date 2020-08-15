@@ -1,5 +1,5 @@
 ---
-title: "Noise and Vibration Analysis of 3D printers"
+title: "Noise and Vibration Analysis of 3D Printers"
 subtitle: "How to Evaluate Airborne and Structure-borne Noise without the Right Tools"
 date: 2020-06-18T08:45:42+01:00
 draft: false 
@@ -39,8 +39,8 @@ After the first analysis and measurement session, the printer showed the followi
 
 {{< figure src="/img/ac/power-supply-thermo.jpg" caption="Position of the switching thermostat installed in the power supply." >}}
 
-- Motor dampers - The printer under test uses ve Nema17 stepper motors, which is one of the most common and cheap solutions in the field. Despite their cost, popularity, and performance, these motors are particularly loud, especially when coupled with low resolution controllers
-like the DRV8825 IC. To address this potential issue, I decided to install mechanical dampers between the motor and the 3D printer frame;
+- Motor dampers - The printer under test uses 5 Nema17 stepper motors, which is one of the most common and cheap solutions in the field. Despite their cost, popularity, and performance, these motors are particularly loud, especially when coupled with low resolution controllers
+like the DRV8825 IC. To address this potential issue, I decided to install mechanical dampers between the motor and the 3D printer frame.
 
 {{< figure src="/img/ac/motors.png" caption="Installation of the motor dampers." >}}
 

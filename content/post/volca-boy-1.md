@@ -4,6 +4,11 @@ date: 2020-05-17T18:01:50+01:00
 bigimg: [{src: "/img/volca-gb-render.jpg", desc: "Render"}]
 draft: false
 ---
+
+## IMPORTANT NOTICE
+
+**Unfortunately, due to the Covid-19 pandemic, this project is currently paused. The reason is that I had to leave my house in Leeds and temporarily return to my hometown in Italy, leaving most of my stuff in the UK. I really hope to go back as soon as possible and continue this journey.**
+
 ### Do More, with Less 
 
 For those unfamiliar with the term, *chiptune* (also known as chipmusic, micromusic or 8-bit music) is a style of electronic music derived from the sound chips that, in the first generation of computers and gaming consoles, were used to balance the processing power of generating sound effects and music from the CPU. 

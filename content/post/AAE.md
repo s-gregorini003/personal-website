@@ -35,7 +35,7 @@ I designed the samples in SolidWorks and manufactured with an AthorBot Brother D
 
 The measurement of the absorption coefficient was conducted according to the *two-micophone technique* detailed in [BS EN ISO 10534-2:2001](https://shop.bsigroup.com/ProductDetail?pid=000000000030069842). The biggest issue faced in this project was to find an impedance tube to conduct the evaluation. Since my university had part of the equipment (microphones, soundcard, speakers...), in the end I decided to build a low-cost impedance tube. I built it out of pvc pipes, hydraulic seals, and I added an Arduino Uno with an OLED display and temperature/humidity sensors to keep track of the environmental conditions. To calibrate the tube and conduct the measuring process - which consisted in measuring the cross-transfer function and then calculating the absorption coefficient - I used the software [Holmarc Wave Analyzer 4C ](https://www.holmarc.com/softwares/impedance_tube_software.rar).
 
-{{< figure src="/img/aae/TestEquipmentDiagram.png" width="600px" caption="Measurement test equipment layout." >}}
+{{< figure src="/img/aae/TestEquipmentDiagram.png" width="800px" caption="Measurement test equipment layout." >}}
 
 
 ## Findings 
