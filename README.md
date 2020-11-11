@@ -1,5 +1,7 @@
 # Quick Start
 
+The theme I'm currently using is [Beautiful Hugo](https://github.com/halogenica/beautifulhugo).
+
 ## Install Hugo
 
 1. Create a new folder `C:\Program Files\Hugo`.
