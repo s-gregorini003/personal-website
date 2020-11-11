@@ -14,7 +14,7 @@
 
 1. `git clone` this repo (**personal-website**) and **s-gregorini003.github.io** to `D:\Users\Silvio\dev\website`.
 2. Update the website (create and edit posts, about, menus...) in `D:\Users\Silvio\dev\website`.
-3. Website update script:
+3. These are the commands to update the website:
 ```
 cd D:\Users\Silvio\dev\website\personal-website
 git status
