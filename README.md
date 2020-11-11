@@ -2,9 +2,6 @@
 
 ## Install Hugo
 
-You’ll need a place to store the Hugo executable, your content (the files that you build), and the generated files (the HTML that Hugo builds for you).
-
-Open Windows Explorer.
 1. Create a new folder `C:\Program Files\Hugo`.
 2. Create a subfolder in the Hugo folder: `C:\Program Files\Hugo\bin`.
 3. Create another subfolder `D:\Users\Silvio\dev\website`.
