@@ -1,100 +1,97 @@
 baseurl = "https://s-gregorini003.github.io/"
-DefaultContentLanguage = "en"
-#DefaultContentLanguage = "ja"
-title = "Silvio Gregorini"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
+title = "s-gregorini003"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
 googleAnalytics = "UA-175164530-1"
 
 
-[Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Student | Maker | Engineer "
-  mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
-  dateFormat = "2 January, 2006"
-  commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  wordCount = true
-  useHLJS = true
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = true
-#  hideAuthor = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+[author]
+name = "Silvio Gregorini"
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04"
+  
+  # Subtitle for home
+  homeSubtitle = "The sky above this website was the colour of television, tuned to a dead channel"
 
-[Author]
-  name = "Silvio Gregorini"
-  website = "s-gregorini003.github.io"
-  email = "silvio.gregorini@gmail.com"
-  github = "s-gregorini003"
-  telegram = "cambionickquandovoglio"
-  linkedin = "silvio-gregorini-097364174"
-  spotify = "11133672971"
-#  facebook = "username"
-#  gitlab = "username"
-#  bitbucket = "username"
-#  twitter = "username"
-#  reddit = "username"
-#  xing = "username"
-#  stackoverflow = "users/XXXXXXX/username"
-#  snapchat = "username"
-#  instagram = "username"
-#  youtube = "user/username" # or channel/channelname
-#  soundcloud = "username"
-#  bandcamp = "username"
-#  itchio = "username"
-#  vk = "username"
-#  paypal = "username"
-#  500px = "username"
-#  codepen = "username"
-#  mastodon = "url"
-#  kaggle = "username"
-#  weibo = "username"
-#  slack = "username"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
 
-[[menu.main]]
-    name = "Blog"
-    url = "post/"
-    weight = 1
+  # Enable sharing buttons, if you linke
+  enableSharingButtons = true
 
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
+  # Metadata mostly used in document's head
+  description = "Silvio Gregorini is an enthusiast MSc Audio Engineering graduate currently looking for PhD opportunities in AI techniques applied to audio and music."
+  keywords = "homepage, blog, resume, CV, website"
+  images = [""]
 
-[[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    weight = 2
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  
+  [[params.social]]
+    name = "linkedin"
+	url = "https://www.linkedin.com/in/s-gregorini003/"
+	
+  [[params.social]]
+	name = "github"
+	url = "https://github.com/s-gregorini003"
+	
+  [[params.social]]
+    name = "email"
+	url = "mailto:silvio.gregorini@outlook.com"
+	
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
 
-[[menu.main]]
-    parent = "projects"
-    name = "Volca Boy"
-    url = "post/volca-boy-0"
-    weight = 1
+[languages]
+  [languages.en]
+    title = "s-gregorini003"
+    subtitle = ""
+    keywords = ""
+    # copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "$ cd /home/"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "blog"
+    url        = "/post"
+
+	[[menu.main]]
+	identifier = "about"
+    name 	   = "about"
+    url		   = "page/about/"
+
+#[[menu.main]]
+#    name = "Blog"
+#    url = "post/"
+#    weight = 1
+
+
+#[[menu.main]]
+#    identifier = "projects"
+#    name = "Projects"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "projects"
+#    name = "Volca Boy"
+#    url = "post/volca-boy-0"
+#    weight = 1
 
 #[[menu.main]]
 #    parent = "projects"
@@ -106,9 +103,4 @@ googleAnalytics = "UA-175164530-1"
 #    parent = "projects"
 #    name = "Code Sample"
 #    url = "post/2016-03-08-code-sample"
-#    weight = 3
-
-#[[menu.main]]
-#    name = "Tags"
-#    url = "tags"
 #    weight = 3

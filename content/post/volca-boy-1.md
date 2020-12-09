@@ -1,7 +1,6 @@
 ---
-title: "Volca Boy 1"
-date: 2020-05-17T18:01:50+01:00
-bigimg: [{src: "/img/volca-gb-render.jpg", desc: "Render"}]
+title: "volca_boy[1] // Initial Design"
+date: 2020-05-31T18:01:50+01:00
 draft: false
 ---
 
@@ -18,7 +17,7 @@ For those unfamiliar with the term, *chiptune* (also known as chipmusic, micromu
 Like everything nowadays, that definition can be interpreted in many ways. In its strictiest meaning, chiptune is used to refer to music created entirely from the original, vintage audio chips (nevertheless, modifications that do not alter the nature of the sound produced are "allowed", but we'll come back to this later). On the other hand, the broadest definition is more related to the aesthetics of the sound, rather then to the source generating it. In general, the philosophy behind the chiptune movement is to exploit the limited resources of the hardware to create more and more articulated music. 
 
 
-### DMG-001
+### DMG-01
 
 With its four audio channels, the *Game Boy* is supposedly the most popular tool for the production of micromusic. This console has been around for quite some time (Nintendo released it in 1989), and over the course of the years many people created and documented mods to equip it with useful features for the cause, such as better audio, rechargeable battery, backlit screen... 
 

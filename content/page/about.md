@@ -4,14 +4,12 @@ date: 2020-05-01T13:03:37+01:00
 draft: false
 ---
 
-## Currently
-
-I am a student at Leeds Beckett University, expecting to obtain a degree of MSc in Audio Engineering in July 2020. I've already submitted all the assignment apart from the final project, and my average is 74,9/100.
+My name is **Silvio Gregorini**, I am an engineer and aspiring researcher interested in how machine learning can be applied to deploy innovative digital music tools. I graduated from Leeds Beckett University with an MSc in Audio Engineering and received the "Solid State Logic Award for Highest Achieving Postgraduate Student". I passed with Distinction with a thesis titled *Small-Footprint Keyword Spotting System for Low Power Applications Using Convolutional Neural Networks*.
 
 ## Future Aims
 
-I am looking for a PhD program starting in autumn 2020 in deep learning for augmented/virtual reality, machine audition, robotics or 3D printing applications. But I'm also considering to undertake internships, either before or whilst researching.
-If you would like to arrange a meeting, [please contact me](mailto:silvio.gregorini@gmail.com).
+I am currently looking for a PhD program starting in 2021 in machine learning for digital musical instruments, augmented/virtual reality, machine audition or 3D printing applications. I am also considering to undertake internships, either before or whilst researching.
+If you would like to arrange a meeting, please [contact me](mailto:silvio.gregorini@outlook.com).
 
 > #### In short, I try to:
 > 1. Do my part in building the best sci-fi future possible.  
@@ -33,7 +31,7 @@ If you would like to arrange a meeting, [please contact me](mailto:silvio.gregor
 ## Other Interests
 
 Alongside the academic work, I have various passions and interests that often intertwine. Some of them are:
-- __3D printing__ - Probably the interest most linked with all the others. With a 3D printer you can basically make everything
-- __Video Games__ - Both modern and retro gaming
-- __Chiptune__ - I restore and mod old consoles (mostly Game Boys) to compose and play music
-- __Music__ - I play drums discreetly, while guitar and bass are still a work in progress.
+- __3D printing__ - Probably the interest most linked with all the others. With a 3D printer you can basically make everything.
+- __Video Games__ - Both modern and retro gaming.
+- __Chiptune__ - I restore and mod old consoles (mostly Game Boys) to compose and play music.
+- __Music__ - I play drums and produce electronic music. Guitar and bass are still a work in progress.

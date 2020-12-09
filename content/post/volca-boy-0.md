@@ -1,5 +1,5 @@
 ---
-title: "Volca Boy - Project Summary"
+title: "volca_boy[0] // Project Summary"
 subtitle: "Something Between an Action Plan and a Table of Contents"
 date: 2020-05-03T16:13:46+01:00
 draft: false 

@@ -2,6 +2,7 @@
 title: "3D Printed Acoustic Absorbers"
 subtitle: "Design, Production and Evaluation of PDI Absorbers"
 date: 2020-06-10T08:45:42+01:00
+math: true
 draft: false 
 ---
 
@@ -22,7 +23,7 @@ The aim of the project is to design and manufacture Passive Destructive Interfer
 
 The investigated devices are designed to absorb specific frequencies through passive destructive interference. These frequencies depend mainly on the specimen's geometry, and can be calculated in advance through the following equation 
 
-{{< figure src="/img/aae/equation.jpg" caption="" >}}
+$$f_n = \frac{(2n - 1)* c}{2L}$$
 
 where *L* (m) is the length of the cavity and *c* (m/s) is the speed of sound in the air.
 
