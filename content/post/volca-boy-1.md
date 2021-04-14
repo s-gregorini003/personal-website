@@ -35,7 +35,7 @@ What I want to do with this project is to use some of these mods as a starting p
 
 Initially, I started this project as a university assignment, which is why I was able to document everything in detail (specifically, in this [Github repo][2]). Back then, my idea was to tear apart a Game Boy, rewire it from the inside to a different controls and put everything into a new, original case.  
 
-{{< figure src="/img/volca-boy-exploded-view.png" caption="3D model made with SolidWorks to show the exploded view of the final product." >}}
+{{< figure src="/img/volca-boy/volca-boy-exploded-view.png" caption="3D model made with SolidWorks to show the exploded view of the final product." >}}
 
 Unfortunately, towards the end of the semester I realised that creating a custom shell for my product was a task way harder than expected. So, after many stressful weeks, I decided - in accordance with my lecturers - to give up with the enclosure and present only a working prototype. Anyway, the exam went well, but I still want to bring this project to an end.
 
