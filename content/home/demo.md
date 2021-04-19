@@ -8,8 +8,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "Academic Template"
-subtitle = ""
+title = "**Sorry**"
+subtitle = "The website is currently under maintenance 😢"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -22,11 +22,11 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
+  color = "rgb(15, 15, 15)"
   
   # Background gradient.
-  gradient_start = "DarkGreen"
-  gradient_end = "Black"
+  # gradient_start = "DarkGreen"
+  # gradient_end = "Black"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/media/`.
@@ -40,7 +40,7 @@ subtitle = ""
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
+  padding = ["240px", "0", "240px", "0"]
 
 [advanced]
  # Custom CSS. 
@@ -50,8 +50,9 @@ subtitle = ""
  css_class = ""
 +++
 
-## 👋 Welcome to the Academic Template
 
+<!-- 
+# 👋 Welcome to the Academic Template
 The Wowchemy **Academic Resumé Template** for Hugo empowers you to create your job-winning online resumé and showcase your academic publications.
 
 [Check out the latest demo](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
@@ -83,4 +84,4 @@ Backgrounds can be applied to any section. Here, the *background* option is set 
 
 ## Get inspired
 
-[Check out the Markdown files](https://github.com/wowchemy/starter-academic/tree/master/exampleSite) which power the [Academic Demo](https://academic-demo.netlify.app), or [view the showcase](https://wowchemy.com/user-stories/).
+[Check out the Markdown files](https://github.com/wowchemy/starter-academic/tree/master/exampleSite) which power the [Academic Demo](https://academic-demo.netlify.app), or [view the showcase](https://wowchemy.com/user-stories/). -->
