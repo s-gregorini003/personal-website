@@ -4,7 +4,7 @@
 widget: experience
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # This file represents a page section.
 headless: true
@@ -25,28 +25,43 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Video Editor
+    company: Freelance
     company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    company_logo:
+    location: 
+    date_start: '2020-06-01'
     date_end: ''
     description: |2-
-        Responsibilities include:
+
+        * Video editing, color correction, basic VFXs and audio mixing in DaVinci Resolve
+        * Made over 50 videos including lectures, MOOCs, promotional videos, videos for technical and non-technical audiences
+  - title: IoT Engineer
+    company: GP2
+    company_url: 'https://www.gp2.info'
+    company_logo: org-gp2
+    location: Italy
+    date_start: '2019-07-01'
+    date_end: ''
+    description: |2-
+
+        * Worked on a system for real-time monitoring and predictive maintenance
+        * Developed a cloud software solution to manage ICES (Infrastructural Control Electronic System) platform
+        * Collaborated in filed patent N.102020000007534 and N.102019000013257
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Research & Development Intern
+    company: QPro
+    company_url: 'https://www.qpro.it/it/ortho/'
+    company_logo: org-qpro
+    location: Italy
+    date_start: '2018-03-01'
+    date_end: '2018-06-30'
+    description:  |2-
+
+        * Production of biomedical components through SLS techniques
+        * Conducted quality control investigations on 3D printed products
+        * Maintenance of an industrial 3D printer, model EOS M280
+
 
 design:
   columns: '2'

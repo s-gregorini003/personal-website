@@ -6,34 +6,32 @@ title: Silvio Gregorini
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Research & Development Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: GP2 S.r.l.
+  url: https://www.gp2.info/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My interests include game audio programming, creative computing and machine learning.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Game Audio Programming
+- Creative Computing
+- Machine Audition
+- Embedded ML/AI
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: MSc in Audio Engineering
+    institution: Leeds Beckett University
+    year: 2020
+  - course: BSc in Mechanical and Materials Engineering
+    institution: University of Brescia
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -42,26 +40,26 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: 'mailto:silvio.gregorini@outlook.com'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/s_gregorini003
+# - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+#   icon_pack: fas
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/s-gregorini003
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/s-gregorini003/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: media/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: media/silvio-gregorini-cv-2021-04.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -70,8 +68,14 @@ email: ""
 highlight_name: false
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a R&D engineer at [GP2](https://www.gp2.info) developing a system for real-time monitoring and predictive maintenance of buildings and infrastructures.
+My primary functions are something in between a data scientist, software developer and embedded engineer. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+In 2019, I decided to move from Brescia (Italy) to Leeds (United Kingdom) to study. I graduated a year later with a MSc in Audio Engineering, with a thesis on 
+speech recognition for low power applications.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Now, I am looking for opportunities to develop my professional career. Being passionate about music, video games, research and artificial intelligence, I want to make a real 
+impact by collaborating on exciting and fulfilling projects that bring together creativity and advanced technologies.
+
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/media/silvio-gregorini-cv-2021-04.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.

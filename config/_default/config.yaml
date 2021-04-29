@@ -4,8 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Silvio Gregorini # Website name
-baseurl: '' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+baseurl: 'https://s-gregorini003.github.io' # Website URL
+copyright: 'Silvio Gregorini © {year} ' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE

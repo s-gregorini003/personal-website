@@ -6,22 +6,29 @@ light = true
 
 
 # Primary
-primary = "#FF5733"
+primary = "#2caac2"
+link_hover = "#c22caa"
 
 # Menu
-menu_primary = "#fff"
-menu_text = "#34495e"
-menu_text_active = "#2962ff"
+menu_primary = "rgb(235, 235, 235)"
+menu_text = "#2b2b2b"
+menu_text_active = "#c22caa"
 menu_title = "#2b2b2b"
 
 # Home sections
-home_section_odd = "rgb(255, 255, 255)"
-home_section_even = "rgb(247, 247, 247)"
+home_section_odd = "rgb(235, 235, 235)"
+home_section_even = "rgb(225, 225, 225)"
 
 [dark]
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
-  
+  link = "#2caac2"
+  link_hover = "#c22caa"
+
+  # Menu
+  menu_primary = "rgb(25, 25, 25)"
+  menu_text = "#ddd"
+  menu_text_active = "#c22caa"
+  menu_title = "#ddd"
+
   # Backgrounds
   background = "rgb(15, 15, 15)"
   home_section_odd = "rgb(25, 25, 25)"

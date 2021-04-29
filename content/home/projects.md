@@ -4,7 +4,7 @@
 widget: portfolio
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # This file represents a page section.
 headless: true
@@ -30,10 +30,16 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: Acoustics
+    tag: Acoustics
+  - name: Programming
+    tag: Programming
+  - name: Electronics
+    tag: Electronics
+  - name: 3D Printing
+    tag: 3D Printing
+  - name: Music
+    tag: Music
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -44,7 +50,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: 2
+  view: 5
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
