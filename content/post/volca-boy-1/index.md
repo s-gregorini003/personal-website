@@ -22,9 +22,9 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: ''
-  focal_point: ""
-  placement: 2
+  caption: 'First 3D render of the product'
+  focal_point: Smart
+  placement: 1
   preview_only: false
 
 authors:

@@ -15,9 +15,10 @@ tags:
 external_link: ""
 
 image:
-  caption: 
+  caption: "Arduino Nano 33 IoT"
   focal_point: Smart
-  preview_only: true
+  preview_only: false
+  placement: 1
 
 links:
 - icon: github
