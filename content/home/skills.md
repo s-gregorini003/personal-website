@@ -19,20 +19,20 @@ subtitle: Software, Hardware etc.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 85%
+- description: 70%
   icon: cplusplus
   icon_pack: custom
   name: C++
-- description: 70%
+- description: 65%
   icon: python
   icon_pack: custom
   name: Python
-- description: 70%
+- description: 65%
   icon: linux
   icon_pack: custom
   name: Linux
 
-- description: 90%
+- description: 80%
   icon: cube
   icon_pack: fas
   name: 3D Modeling
@@ -40,7 +40,7 @@ feature:
   icon: bolt
   icon_pack: fas
   name: Electronics
-- description: 65%
+- description: 60%
   icon: music
   icon_pack: fas
   name: Music
